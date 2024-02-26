@@ -1,0 +1,483 @@
+.container {
+  margin: 20px 40px;
+}
+
+header {
+  border-bottom: 0.5px solid #8b8a89;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav .nav-left {
+  display: flex;
+}
+nav .nav-left img {
+  width: 68px;
+  height: 40px;
+}
+nav .nav-left h1 {
+  margin: 8px 0 0 15px;
+  font-family: "Open Sans", sans-serif;
+}
+nav .nav-right {
+  display: flex;
+  margin-top: 16px;
+}
+nav .nav-right a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 25px;
+  font-family: "roboto", sans-serif;
+  font-weight: bold;
+}
+nav .nav-right a:nth-child(4) {
+  color: #71A894;
+}
+
+.main-top {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: space-between;
+}
+.main-top .main-top-left {
+  width: 608px;
+  margin: 2rem 0 0 0;
+}
+.main-top .main-top-left h1 {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 80px;
+  font-family: "roboto", sans-serif;
+}
+.main-top .main-top-left p {
+  font-family: "Open sans" sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #66645e;
+  margin: 1rem 0;
+}
+.main-top .main-top-left .main-btn {
+  margin: 3rem 0 0 0;
+}
+.main-top .main-top-left .main-btn a {
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #71A894;
+  background-color: #71A894;
+  padding: 20px 25px;
+  border-radius: 10px;
+}
+.main-top .main-top-right img {
+  width: 733px;
+  height: 570px;
+  margin: 0 0 0 0;
+}
+
+.information .info-top {
+  text-align: center;
+}
+.information .info-top h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+}
+.information .info-top p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  margin: 4rem 0;
+}
+.information .info-bottom .card {
+  display: flex;
+}
+.information .info-bottom .card .cards {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #ffffff;
+  padding: 3rem 1rem;
+  margin: 1rem 0 0 2rem;
+  text-align: center;
+  width: 427px;
+  border-radius: 10px;
+  box-shadow: #8b8a89;
+}
+.information .info-bottom .card .cards img {
+  background-color: white;
+}
+.information .info-bottom .card .cards h1 {
+  background-color: white;
+  margin: 2rem 0 2rem 0;
+}
+.information .info-bottom .card .cards p {
+  background-color: white;
+}
+
+.comment {
+  display: flex;
+  justify-content: space-between;
+}
+.comment .comment-left {
+  width: 644px;
+  height: 334px;
+}
+.comment .comment-left .comment-left-image {
+  margin: 1rem 2rem;
+}
+.comment .comment-left .comment-left-image img {
+  width: 80px;
+  height: 80px;
+}
+.comment .comment-left h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  margin: 1rem 2rem;
+}
+.comment .comment-left p {
+  margin: 1rem 2rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: #303031;
+}
+.comment .comment-right {
+  border: 3.5px solid #000000;
+  padding: 1rem 10rem 1rem 1rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  margin-right: 4rem;
+}
+.comment .comment-right h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  background-color: #ffffff;
+  margin: 1rem;
+}
+.comment .comment-right .person {
+  background-color: #ffffff;
+}
+.comment .comment-right .person .persons {
+  background-color: #ffffff;
+  display: flex;
+}
+.comment .comment-right .person .persons img {
+  background-color: #ffffff;
+}
+.comment .comment-right .person .persons .parag {
+  margin: 6px 0 0 10px;
+  background-color: #ffffff;
+}
+.comment .comment-right .person .persons .parag p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: -2%;
+  background-color: #ffffff;
+}
+
+.comment2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 2rem;
+}
+.comment2 .comment2-left {
+  width: 644px;
+}
+.comment2 .comment2-left img {
+  width: 80px;
+  height: 80px;
+}
+.comment2 .comment2-left h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  margin: 1rem 0 2rem 0;
+}
+.comment2 .comment2-left p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+.comment2 .comment2-right {
+  width: 644px;
+}
+.comment2 .comment2-right .top-box {
+  border: 3px solid #000000;
+  border-radius: 18px;
+  padding: 1.5rem 2.5rem;
+  background-color: #ffffff;
+}
+.comment2 .comment2-right .top-box p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  width: 420px;
+  background-color: #ffffff;
+}
+.comment2 .comment2-right .top-box .top-box-headers {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.comment2 .comment2-right .top-box .top-box-headers h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  background-color: #ffffff;
+}
+.comment2 .comment2-right .top-box .top-box-headers h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  border: 1px solid #71A894;
+  background-color: #71A894;
+  padding: 4px 8px;
+  border-radius: 40px;
+}
+.comment2 .comment2-right .bottom-box {
+  display: flex;
+  margin-top: 1rem;
+}
+.comment2 .comment2-right .bottom-box .bottom-box1 {
+  border: 3px solid #000000;
+  background-color: #F3F0EA;
+  border-radius: 18px;
+  padding: 2rem 10rem 2rem 2rem;
+}
+.comment2 .comment2-right .bottom-box .bottom-box1 h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  background-color: #F3F0EA;
+}
+.comment2 .comment2-right .bottom-box .bottom-box1 .applicant {
+  background-color: #F3F0EA;
+  margin-top: 1rem;
+}
+.comment2 .comment2-right .bottom-box .bottom-box1 .applicant .applicants {
+  background-color: #F3F0EA;
+  display: flex;
+  margin: 1rem 0;
+}
+.comment2 .comment2-right .bottom-box .bottom-box1 .applicant .applicants img {
+  background-color: #F3F0EA;
+  width: 40px;
+  height: 40px;
+}
+.comment2 .comment2-right .bottom-box .bottom-box1 .applicant .applicants p {
+  background-color: #F3F0EA;
+  margin: 7px 0 0 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 24px;
+}
+.comment2 .comment2-right .bottom-box .bottom-box1 .applicant .applicants i {
+  background-color: #F3F0EA;
+}
+.comment2 .comment2-right .bottom-box .bottom-box2 {
+  border: 3px solid #71A894;
+  background-color: #ffffff;
+  margin-left: 10px;
+  padding: 3rem 4rem;
+  border-radius: 18px;
+}
+.comment2 .comment2-right .bottom-box .bottom-box2 img {
+  background-color: #ffffff;
+  width: 72px;
+  height: 72px;
+  text-align: center;
+  margin: 0 0 20px 10px;
+}
+.comment2 .comment2-right .bottom-box .bottom-box2 h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: #ffffff;
+  text-align: center;
+  width: 100px;
+}
+.comment2 .comment2-right .bottom-box .bottom-box2 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+.comment2 .comment2-right .bottom-box .bottom-box2 .bottom-box2-btn {
+  background-color: #ffffff;
+}
+.comment2 .comment2-right .bottom-box .bottom-box2 .bottom-box2-btn a {
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid #000000;
+  background-color: #000000;
+  padding: 12px 30px;
+  width: 1000px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 16px;
+}
+
+.help-us {
+  text-align: center;
+}
+.help-us h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+}
+.help-us p {
+  font-family: "Roboto", sans-serif;
+  max-width: 1200px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 1rem 1rem;
+}
+
+.help {
+  margin: 10rem 0;
+}
+
+.help-card {
+  display: flex;
+  margin: 2rem 0 0 0;
+}
+.help-card .help-cards {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  padding: 4rem 2rem;
+  margin: 0 1rem;
+  border-radius: 16px;
+}
+.help-card .help-cards h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  background-color: #ffffff;
+}
+.help-card .help-cards p {
+  max-width: 380px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #ffffff;
+  margin: 1rem 0;
+}
+.help-card .help-cards .span {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.help-card .help-cards .span span {
+  background-color: #71A894;
+  border: 1px solid #71A894;
+  border-radius: 40px;
+  padding: 10px 20px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 2rem;
+}
+.help-card .help-cards .span i {
+  background-color: #ffffff;
+}
+.help-card .help-cards .span p {
+  background-color: #ffffff;
+  margin-top: 2.5rem;
+}
+
+.view-more {
+  text-align: center;
+}
+.view-more a {
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid #000000;
+  background-color: #000000;
+  padding: 20px 24px;
+  border-radius: 8px;
+}
+
+.bottom-main {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: space-between;
+}
+.bottom-main .bottom-main-left {
+  width: 800px;
+  margin: 2rem 0 0 0;
+}
+.bottom-main .bottom-main-left h1 {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 80px;
+  font-family: "roboto", sans-serif;
+}
+.bottom-main .bottom-main-left p {
+  font-family: "Open sans" sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #66645e;
+  margin: 1rem 0;
+}
+.bottom-main .bottom-main-left .bottom-main-btn {
+  margin: 3rem 0 0 0;
+}
+.bottom-main .bottom-main-left .bottom-main-btn a {
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #71A894;
+  background-color: #71A894;
+  padding: 20px 25px;
+  border-radius: 10px;
+}
+.bottom-main .bottom-main-right img {
+  width: 644px;
+  height: 361px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+.footer .ft-left h2 {
+  font-family: "Open", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+.footer .ft-right a {
+  text-decoration: none;
+  color: #000000;
+  margin: 0 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.footer .ft-right a:nth-child(4) {
+  color: #71A894;
+}/*# sourceMappingURL=style.css.map */
